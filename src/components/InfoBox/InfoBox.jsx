@@ -27,7 +27,7 @@ export const InfoBox = () => {
           <div className="info_container">
             <div className="info_wrapper-first">
               <h2 className="info_title">
-                {`The weather in Minsk: ${weather.name}`}
+                {`The weather in: ${weather.name}`}
               </h2>
             </div>
             <div className="info_wrapper-second">
