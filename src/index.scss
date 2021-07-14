@@ -1,0 +1,18 @@
+$backgroundImgae: 'https://www.stratoscale.com/wp-content/uploads/2019/05/bigstock-168398480.jpg';
+
+body {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  background-image: url($backgroundImgae);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+* {
+  box-sizing: border-box;
+}
